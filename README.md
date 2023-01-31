@@ -4,6 +4,8 @@ Final Project for CLG Foundations Web Dev
 
 Make your form fun and interactive!
 
+https://cutefluffyarachnid.netlify.app
+
 Perform the following JavaScript tasks withing <script> tags before the closing </body> tag of your page:
 
 *   Store strings in variables
