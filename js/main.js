@@ -1,16 +1,32 @@
 document.querySelector('.fave').style.color = "#E9EFE6";
 
 function radioButton() {
-    alert('Tell us why this is your fave!')
+    alert('Tell us why this is your fave!');
 }
-radioButton(not.onload);
+
+document.getElementById("jumpButton").addEventListener("click", radioButton);
+
 
 function submitForm() {
-    alert('Thanks for sharing!')
-    ;
+    alert('Thanks for sharing!');
   }
 
-SubmitForm();
+document.getElementById("submit").addEventListener("click", submitForm);
+
+//attempt to hide address box when email selected
+// const btnEmail = document.getElementById('newsletter');
+
+// btnEmail.addEventListener('click', () => {
+//   const post = document.getElementById('post');
+
+
+//   post.style.display = 'none';
+
+
+// });
+
+
+
 
 let myVariable = "Jump in!";
     console.log(myVariable);
