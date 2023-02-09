@@ -3,7 +3,7 @@ document.querySelector('.fave').style.color = "#E9EFE6";
 function radioButton() {
     alert('Tell us why this is your fave!')
 }
-radioButton();
+radioButton(not.onload);
 
 let myVariable = "Jump in!";
     console.log(myVariable);
