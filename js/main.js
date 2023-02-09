@@ -5,6 +5,13 @@ function radioButton() {
 }
 radioButton(not.onload);
 
+function submitForm() {
+    alert('Thanks for sharing!')
+    ;
+  }
+
+SubmitForm();
+
 let myVariable = "Jump in!";
     console.log(myVariable);
     

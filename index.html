@@ -151,7 +151,7 @@
       <article class="articleform">
         <strong> Vote for your favourite featured Jumping Spider!</strong>
 
-        <form class="form" method="POST">
+        <form class="form">
           <div>
             <input
               type="radio"
@@ -189,11 +189,16 @@
             <label for="fave">
               Why is this your favourite Jumping spider?
             </label>
-            <div>
+          <div>
               <textarea id="fave">My favourite Jumping Spider is... </textarea>
             </div>
 
-            <div class="submit"><input type="submit" value="Submit" /></div>
+          <div class="submit">
+            <a href = "contact.html"></a>
+            <input 
+              type="submit" 
+              onclick="submitForm()"/>            
+            </div>
           </div>
         </form>
       </article>
