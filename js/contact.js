@@ -3,18 +3,22 @@ function mouseOver() {
     let MouseOver = "Get in contact.";
      console.log(MouseOver);
         }
-// ATTEMPT FIX: DISPLAY EACH DATA ENTRY BOX ON PREFERENCE SELECTION
-// const buttonEmail = document.getElementById('newsletter');
 
-// buttonEmail.addEventListener('click', () => {
-//     const post = document.getElementById('post');
-//     post.style.display = 'none';
-// });
+// function myEmail() {
+//     let emailInput = document.getElementById("electronic");
+//     let postInput = document.getElementById("post");
+//     postInput.style.display = "none";
+//     emailInput.style.display = "block"; 
+//     };
 
+// myEmail();
 
-// const buttonPost = document.getElementById('newsletter');
+// function myPost() {
+//     let emailInput = document.getElementById("electronic");
+//     let postInput = document.getElementById("post");
+//     emailInput.style.display ="none";
+//     postInput.style.display = "block";
+//     };
 
-// buttonPost.addEventListener('click', () => {
-//     const email = document.getElementById('email');
-//     email.style.display = 'none';
-// });
+// myPost();
+

@@ -49,21 +49,21 @@
     <div>
       <select id="newsletter"  name="choice">
         <option value="">Please select...</option>
-        <option value="email">Email</option>
-        <option value="post">Post</option>
+        <option onclick="myEmail()" value="email">Email</option>
+        <option onclick="myPost()" value="post" >Post</option>
       </select>
       
     </div>
 
     <div class="field">
-      <label for="email">
-       Enter your email here to get the latest news on Jumping Spiders!
+      <label for="contact">
+       Enter your details here to get the latest news on Jumping Spiders!
       </label>
     <div>
-    <div>
+    <div id = "electronic">
       <input type="email" id="email" name="email" placeholder="Email*" required>
     </div>
-    <div>or</div>
+    
     <div id = "post">
       <input type="address" id="address" name="address" placeholder="Address*" required>
     </div>
