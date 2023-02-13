@@ -4,21 +4,27 @@ function mouseOver() {
      console.log(MouseOver);
         }
 
-// function myEmail() {
-//     let emailInput = document.getElementById("electronic");
-//     let postInput = document.getElementById("post");
-//     postInput.style.display = "none";
-//     emailInput.style.display = "block"; 
-//     };
+document.getElementById("newsletter").addEventListener("change", function() {
+    if (this.value === "email") {
+              myEmail();
+    } else if (this.value === "post") {
+              myPost();
+    }
+    });
 
-// myEmail();
+function myEmail() {
+    let emailInput = document.getElementById("email");
+    let postInput = document.getElementById("post");
+    emailInput.style.display ="block";
+    postInput.style.display = "none";
+    };
 
-// function myPost() {
-//     let emailInput = document.getElementById("electronic");
-//     let postInput = document.getElementById("post");
-//     emailInput.style.display ="none";
-//     postInput.style.display = "block";
-//     };
+function myPost() {
+    let emailInput = document.getElementById("email");
+    let postInput = document.getElementById("post");
+    emailInput.style.display ="none";
+    postInput.style.display = "block";
+    };
 
-// myPost();
+
 

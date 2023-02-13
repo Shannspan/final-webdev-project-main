@@ -49,8 +49,8 @@
     <div>
       <select id="newsletter"  name="choice">
         <option value="">Please select...</option>
-        <option onclick="myEmail()" value="email">Email</option>
-        <option onclick="myPost()" value="post" >Post</option>
+        <option value="email">Email</option>
+        <option value="post">Post</option>
       </select>
       
     </div>
@@ -60,11 +60,13 @@
        Enter your details here to get the latest news on Jumping Spiders!
       </label>
     <div>
-    <div id = "electronic">
+    <div id = "email">
+      <label for="email"></label>
       <input type="email" id="email" name="email" placeholder="Email*" required>
     </div>
     
     <div id = "post">
+      <label for="address"></label>
       <input type="address" id="address" name="address" placeholder="Address*" required>
     </div>
 
