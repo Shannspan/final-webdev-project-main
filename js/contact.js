@@ -40,5 +40,3 @@ function mouseOver() {
 //     postInput.style.display = "block";
 //     };
 
-
-
