@@ -10,9 +10,13 @@ function mouseOver() {
 // SO WILL WORK ONCE BOTH DETAILS ARE ENTERED BUT
 // INDIVIDUALLY PRODUCES ERROR.
 // THIS CODE 
-//document.getElementById('element_id').removeAttribute('required');
-//DID NOT WORK IN EACH INDIVIDUAL FUNCTION
+// document.getElementById('element_id').removeAttribute('required');
+// DID NOT WORK IN EACH INDIVIDUAL FUNCTION
 // CONSIDER OTHER APPLICATIONS
+
+// NEW FORM CREATED TO CONTAIN EMAIL AND ADDRESS 
+// FIELDS SEPARATELY DOES NOT FIX ERROR CAUSED BY
+// 'REQUIRED' INPUT 
 
 // document.getElementById("newsletter").addEventListener("change", function() {
 //     if (this.value === "email") {
